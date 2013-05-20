@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 在此建立规则，系统对工程目录进行扫描链接的时候是否忽略，或是报告为错误 -->
+<lint>
+    <issue id="ResourceAsColor" severity="ignore" />
+</lint>

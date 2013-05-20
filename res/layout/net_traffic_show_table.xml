@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/main_table"
+    android:orientation="vertical"
+    android:shrinkColumns="3"
+    android:background="@android:color/white">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:gravity="center_horizontal|bottom"
+        android:textColor="@color/textColor"
+        android:text="@string/app_name"
+        android:textSize="30sp" />
+	<TableRow	   
+	    android:weightSum="3">
+		<TextView 
+		    style="@style/main_table"
+	        android:text="@string/today_use"/>
+		<TextView 
+		    style="@style/main_table"
+		    android:text="@string/month_use"/>
+		<TextView 
+		    style="@style/main_table"
+		    android:text="@string/month_sum"/>
+	</TableRow>
+	<TableRow       		
+	 	android:weightSum="3">
+		<TextView
+		    android:id="@+id/todayView"
+		    style="@style/main_table"/>
+		<TextView
+		    android:id="@+id/historyView"
+		    style="@style/main_table"/>
+		<TextView
+		    android:id="@+id/sumView"
+		    style="@style/main_table"/>
+	</TableRow>
+	<TableRow       		
+	 	android:weightSum="3">
+		<TextView
+		    android:id="@+id/todayWifi"
+		    style="@style/main_table"/>
+		<TextView
+		    android:id="@+id/historyWifi"
+		    style="@style/main_table"/>
+		<TextView
+		    android:text="@string/wifi"
+		    style="@style/main_table"/>
+	</TableRow>
+
+</TableLayout>

@@ -1,0 +1,2 @@
+set solib-search-path ./obj/local/armeabi
+directory E:/Engineering/ADT/android-ndk-r8e/platforms/android-8/arch-arm/usr/include /home/papersnake/develop/android_source/android_frameworks_base/include /home/papersnake/develop/android_source/core/include E:/Engineering/ADT/android-ndk-r8e/sources/cxx-stl/system/include jni

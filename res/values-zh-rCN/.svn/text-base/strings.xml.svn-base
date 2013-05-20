@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BaiduAndroid!</string>
+    <string name="app_name">百度SDK示例程序</string>
+    
+    <string name="simple_declaring">声明式布局</string>
+    <string name="simple_coding">代码式布局</string>
+    <string name="advanced">高级应用 (文本) </string>
+    <string name="advanced_img">高级应用 (图片) </string>
+</resources>

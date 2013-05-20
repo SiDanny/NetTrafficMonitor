@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_list_item">
+   	<RadioGroup 
+       	android:gravity="center_vertical" 
+       	android:layout_gravity="top" 
+       	android:orientation="horizontal" 
+       	android:id="@+id/list_main_radio"
+       	android:background="@drawable/maintab_toolbar_bg" 
+       	android:layout_width="fill_parent" 
+       	android:layout_height="wrap_content">
+        <RadioButton 
+           	android:id="@+id/list_radio_button1" 
+           	android:tag="list_radio_button1" 
+           	android:text="@string/list_tra" 
+           	style="@style/main_tab_top" />            
+        <RadioButton 
+           	android:id="@+id/list_radio_button2" 
+           	android:tag="radio_button2" 
+           	android:text="@string/sysApk"  
+           	style="@style/main_tab_top" />
+        <RadioButton 
+           	android:id="@+id/list_radio_button3" 
+           	android:tag="radio_button3"  
+           	android:text="@string/more" 
+           	style="@style/main_tab_top" />
+       </RadioGroup>
+
+       <include layout="@layout/scroll"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:id="@+id/scroll"/>  
+      
+</LinearLayout>

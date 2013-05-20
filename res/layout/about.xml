@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"    
+    android:background="@android:color/white" > 
+	<LinearLayout
+	    android:id="@+id/miidi"
+    	android:layout_alignParentBottom="true"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">    		
+	</LinearLayout>  
+	<LinearLayout
+        android:id="@+id/adview"
+        android:layout_above="@id/miidi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/lancher" />
+    <TextView android:id="@+id/printl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/log"
+        android:gravity="center_horizontal"
+        android:text="@string/orange_work"
+        android:textColor="#00a0e9"
+        android:textSize="20dip"
+        android:typeface="serif" />
+    <TextView
+        android:id="@+id/print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/printl"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"       
+        android:textColor="#00a0e9"
+        android:textSize="20dip"
+        android:typeface="serif" />  	 	
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 该布局图是加载应用程序列表信息时的过渡图 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:id="@+id/transition"		
+    android:orientation="vertical" >
+    <ImageView  
+        android:id="@+id/log"
+        android:gravity="center_horizontal"
+        android:src="@drawable/lancher"
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"/>
+    <LinearLayout 
+        android:id="@+id/adview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/log"></LinearLayout>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:id="@+id/wait"
+        android:layout_below="@id/adview"
+        android:gravity="center_horizontal"
+        android:text="@string/loading"/>
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string-array name="menuArray">
+        <item >Delete Data Res</item>
+        <item >Feedback Info</item>      
+        <item >Help Us</item>         
+	</string-array>
+	<string-array name="youmo">
+		<item >大夫让其遮住一只眼，指着视力表一个一个地问。\n 大夫指1.0他说看不见，大夫指0.8他说看不见，\n大夫指0.2他还说看不见。\n大夫说：“过来让我看一下。”大夫扒了扒眼说：\n“假眼你也不说一声"。</item>
+		<item >一个男人去市场买菜，问道：“我要买些菜晚上留给妻子吃，你这蔬菜没喷洒过农药吧。”，\n小贩说：“我们的菜没洒药，要撒药这事得你自己来做”</item>
+		<item >儿子拿了个iPad对妈妈说：“你瞧，可以在上面看书呢。”，\n妈妈听完便用舌头舔了舔手指翻了起来...</item>
+		<item >餐桌上，一个中年人对年轻人说：“我在亲子鉴定中心工作，\n你有什么需要帮忙的话，尽管来找我。”，\n年轻人说：“我还没结婚呢！”，\n中年人答道：“没关系！要是你父亲有什么需要也可以来找我”</item>
+		<item >小时候的一个雨夜，哥哥和弟弟在床上聊天，越聊越亲，\n我俩感觉应该更亲近一些，然后我俩就结拜成把兄弟了……</item>
+		<item >女生说好冷，\n普通青年就脱下衣服给她披上；\n文艺青年就解开自己衣服把她搂怀里；\n二B青年说：‘你学我，蹦蹦就不冷了。’</item>
+		<item >一MM在办公室抹护手霜。一个男同事凑过来，说：“我也要抹。”，\n说完就把双手伸出来。MM看了看男同事的手说：“你这得涂护发素啊！”</item>
+		<item >一个公司的工资排名规律：\n用Word的不如用Excel的，\n用Excel的不如用PPT的，\n用PPT的不如讲PPT的，\n讲PPT的不如听PPT的。</item>
+		<item >一位妇人抱著BABY到一间妇产科,\n医生问妇人说：BABY是吃母乳还是牛奶啊？\n妇人：吃母乳!医生：那请你把衣服脱下来.妇人：啊！？为什么？
+		    \n医生：请你不用紧张，这里是妇产科，绝不会对你有任何侵犯的\n妇人半信半疑的脱去了上衣，医生用他的手在妇人的胸部上上摸摸，下摸摸，左搓搓，右揉揉。
+		    \n然后对这妇人说：难怪BABY会营养不良，你根本就没有母乳嘛！\n妇人：废话！我当然没有母乳；我是他阿姨！</item>
+		<item >结婚那夜，新娘笑着对新郎说：“看，老鼠在吃你们家的大米呢。”\n第二天早上，新娘醒来，看见老鼠又在吃大米，顺手丢过去一只鞋子：\n“该死的老鼠，竟敢吃我家的大米！”</item>
+		<item >年轻的律师第一次打官司就赢了，他回到家，\n对老律师父亲说道：“爸爸，你还记得你经手的那宗约翰和彼得的没完没了的官司吗？\n我只用了一个月便把它顺利地解决了。你瞧，连律师费都拿到手了。
+		    \n真不明白你怎么会拖那么久也没有办完。”\n年轻的律师第一次打官司就赢了，他回到家，对老律师父亲说道：
+		    \n“爸爸，你还记得你经手的那宗约翰和彼得的没完没了的官司吗？我只用了一个月便把它顺利地解决了。
+		    \n你瞧，连律师费都拿到手了。真不明白你怎么会拖那么久也没有办完。”</item>
+		<item >小陈是个摄影师，每年都给大学生拍毕业照。这天，他和朋友聊天，朋友问他：“现在大学生照相时，是不是还喊‘茄子’？”
+		    \n小陈说：“早不喊了，比如今年给理工学院毕业生照相时，那群男生都喊——‘娘子’。”
+		    \n朋友一听笑了，说：“如果是女生占多数，该不会喊‘汉子’吧？”
+		    \n小陈连连摇头：“女生多的学院有些喊‘银子’，有些喊‘房子’。”</item>
+		<item >1.为了排解寂寞你决定上网找人聊聊，这叫创业初期；  上来一看，靠！MM还真不少，这叫市场潜力大； 可是GG也不少，这叫竞争激烈； 于是你决定想个办法让各位MM注意你，这叫定位； 因此你说你又帅又有钱，这叫前期炒作； </item>
+		<item >2.旁边一男的看不惯，说你其实又丑又穷又色眯眯，这叫恶性竞争； 　 你向网管告状，网管把他踢了出去，这叫规范市场。 一老哥们证明说：“其实你是谢停疯第二”，这叫竟合炒做； 你问：“这里有美女吗？”，这叫市场调查； </item>
+		<item >3.有２０个人同时回答：“我是美女”，这叫泡沫经济； 你说：“谁想和我聊天？”，这叫发布广告； 两美女说见过你，这叫老客户； 你飞快的记下两个美女的联系方式，这叫客户关系管理； </item>
+		<item >4.你厚着脸皮问两个美女你是不是很帅，这叫代言人公关； 这两个美女说你的确很帅，这叫联合炒作； 你继续厚着脸皮让他们介绍几个熟人认识，这叫关系营销； 然后不再理她们，这叫开拓新市场；  </item>
+		<item >5.居然２０个美女都表示要和你聊天，这叫市场垄断； 要问为什么会有那么多美女找你，那是因为这年头顾客忠诚度低； 你高兴的说：“这些美女都是我的”，这叫划分势力范围； </item>
+		<item >6.你如果说：“凡北京的美女都是我的”，这叫划分可行的势力范围； 如果你又说：“恐龙别来找我”，这叫市场细分；</item>
+		<item >7.旁边一男的说：“我才是帅哥”，这叫正面竞争； 旁边又男的说：“有河南的MM吗？“这叫侧面竞争； 旁边又一男的说：“谁和我聊我给钱谁”，这叫价格战； 旁边又一男的说：“我是版主，不许你强占这么多MM”，这叫政府行为； </item>
+		<item >8.你说：“那我介绍两个跟你聊”，这叫政府公关； 你说：“谁给我钱我和谁聊”，这叫心理战； 结果２０个美女都抢着向你表达倾慕之情，这叫卖方市场； </item>
+		<item >9.当然，你还遣散了两个去应付版主，这叫寡头市场； 可你打字速度太慢，不能同时和２０个人聊天，这叫市场承接力有限； 你又说：“我看谁顺眼才和谁聊”，这叫精品策略； </item>
+		<item >10.有一美女说：“还认识很多靓女，问你要不要介绍？”这叫销售代理； 又有一美女说：“发你张我的照片。”这叫电子商务； 又有一美女说：“谈的开心今晚可以来找我。”这叫发现目标用户； </item>
+		<item >11.你说：“那从此我只和你聊”，这叫大客户战略； 　可是你当然不会只和她聊，这叫成功的大客户战略； 你说话会引用鲁迅席慕容海子周星星黑格尔罗丹斯皮尔伯格，这叫文化营销； 你说：“我能歌善舞会写诗”，这叫优势展示； </item>
+		<item >12.你又说：“我好象爱上你了”，这叫客户关怀； 她说：“呸，我才不信呢”，这叫客户的逆向反映； 你接着说：“真的，是真的”，这叫IBM； 或者你说：“不信我去你家把心掏给你”，这叫DELL； 或者你说：“不信我你还能信谁？”，这叫微软； 你还可以说：“我会慢慢让你相信的”，这叫通用； 　如果她说：“得了吧”，这叫理性消费者； </item>
+		<item >13.如果她说：“那我暂且信你一会儿吧”，这叫阶段性成果； 这时你说：“XXXXXXXXXXX（省略2000字）”，这叫市场培育； 然后你说：“我越来越喜欢你了”，这叫合理诱导； 然后你又说：“我们见面吧”，这叫进入实质销售阶段； </item>
+		<item >14.她当然会习惯性的拒绝，这叫假性拒绝； 　于是你说：“那你来找我吧”，这叫精通消费者心理学； 她问：“这不一样吗？”，这叫再次获得销售机会；</item>
+		<item >15.于是你又说：“当然不一样，我们可以去Sogo，然后在仙踪林喝茶”，这叫远景共享； 你又说：“我在那看见过一瓶香水我想一定适合你”，这叫促销；</item>
+		<item >16.她说：“我才不要香水呢”，这叫需求调查失误； 　你只好说：“本来是想给你买衣服，可是不知道你的尺码，要不一起去看看吧”，这叫空头支票； 正好她确实想去买衣服，这叫真理瞬间；</item>
+		<item >17.可是她对你的建议有些过意不去：“你是我什么人就帮我买呀”，这叫售前交涉； 　于是你就坡下驴：“那你买，我帮你把关”，这叫及时降低销售成本； 当然你要说明：“我请你吃饭，我帮你拎包，我开车送你”，这叫服务承诺；</item>
+		<item >18.于是你们决定在SOGO见面，这叫签单； 　临关电脑前你揭穿了版主威胁你的丑恶嘴脸，这叫远华案； 在SOGO门口你们见面，这叫履行合同； 可是你发现该“美女”与收到的照片不符，这叫有中国特色的电子商务； </item>
+		<item >19.而且是只大恐龙，这叫货不对板； 恐龙还穿着晚礼服带着大耳环，这叫精包装； 好在还有一女伴陪同恐龙过来，这叫买一送一； 这女伴居然还很靓，这叫天大利好； 靓女穿着吊带裙，这叫简包装，其实你更希望散装。 </item>
+		<item >20.你想请美女吃饭恐龙一定要跟着去，这叫捆绑销售； 你想了很多办法想把恐龙打发走，这叫策划； 你终于把恐龙灌醉，这叫公关； 你把恐龙塞进的士，这叫剥除不良资产； s</item>
+		<item >21.通过恐龙，你终于和女拌走到了一起，这叫借壳上市；而且女拌已经答应晚饭后跟你回家，这叫获得期权； 可是饭后女拌称病回自己家了，这叫纳斯达克； 你愤怒之余追到她家，将生米煮成熟饭，这叫鼠标加水泥； </item>
+		<item >20.之后你才发现她有很多男朋友，这叫多方控股； 而且她还在发展你的哥们，这叫配股； 要命的是她还傍大款，做二奶，这叫多次融资；你在愤怒之余断绝了和她的往来，这叫美国在线；痛定之后，你又来到网上寻找新的MM，这叫史玉柱；(完) </item>
+	</string-array>
+	<string-array name="menuArray2">
+        <item >Click if the histogram error</item>
+        <item >Give us idea to make up our shortage ONLINE</item>      
+        <item >Help our team and About us</item>         
+	</string-array>
+    <color name="orange">#edd443</color>
+    <color name="green">#15ae67</color>
+    <color name="ogreen">#d8f93e</color>
+    <color name="textColor">#0fad00</color>
+    <color name="guide_list_item_bg">#3c91e2</color>
+    <string name="BroadChange">android.net.conn.CONNECTIVITY_CHANGE</string>
+    <string name="menutext"> Menu </string>
+    <string name="app_name">Net Record</string>    
+    <string name="version">Version:1.40</string>
+    <string name="installedApk">Installed</string>
+    <string name="sysApk">Information</string>
+    <string name="more">More</string>
+    <string name="orange_work">Work From Orange</string>
+    <string name="unknowned">UNKNOWNED</string>
+    <string name="IMIE">IMIE</string>
+    <string name="PhoneType">PhoneType</string>
+    <string name="SysVersion">SysVersion</string>
+    <string name="NetWorkCountryIso">NetWorkCountryIso</string>
+    <string name="NetWorkOperator">NetWorkOperator</string>
+	<string name="NetWorkType">NetWorkType</string>
+    <string name="ConnectTypeName">ConnectTypeName</string>
+	<string name="FreeMem">FreeMem</string>
+	<string name="CpuInfo">CpuInfo</string>
+    <string name="ModelName">ModelName</string>
+    <string name="Main">Main</string>
+    <string name="list_tra">Net Info</string>
+    <string name="Setting">Setting</string>
+    <string name="auto">Auto Show NTFY</string>
+    <string name="per_data">Per data NFY</string>
+    <string name="no">Hide NTFY</string>
+    <string name="always">Always Show NTFY</string>   
+    <string name="unit">Unit of per traffic NTFY: </string>  
+	<string name="inputSum">Input sum of month：</string>
+	<string name="inputSpend">Input Month  Spend：</string>
+	<string name="month_sum">Month Sum</string>
+	<string name="month_use">Month Use</string>
+	<string name="today_use">Today Use</string>
+	<string name="loading">Loading,please wait</string>
+	<string name="UP">Up</string>
+	<string name="DOWN">Down</string>
+	<string name="ver">Version</string>
+	<string name="moblieInfo">Mobile Information</string>
+	<string name="dis0">Absolute pixels width*height: </string>
+	<string name="dis1">Dimension pixels per inch: </string>
+	<string name="updateInfo">V1.40 Update Information:\nAdd the record of WIFI</string>
+	<string name="about">About Software</string>
+	<string name="setted">Data has memoryed</string>
+	<string name="more00">&quot;It will be unstored,\n&quot;&quot;be sure to delete data resource？&quot;</string>
+	<string name="more10">Feedback Online</string>
+	<string name="more11">More Perfect Intro</string>
+	<string name="curPoint">Current Point </string>
+	<string name="more41">spend 40 point to throw the push advertise out</string>
+	<string name="conInfo">Net link Info</string>
+	<string name="wifi"> WIFI </string>
+	<string name ="conInfoErro">No Info for the moment</string>	
+	<string name ="contru">Tap to endow us if you installed the Apk on list</string>
+	<string name="fov">Comment to abet us</string>
+	<string name="stopAD">Stop Advertise</string>
+	
+</resources>
