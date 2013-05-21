@@ -8,7 +8,7 @@ public class DBStr {
 	public static final String LIST_TNAME = "listnettraffic";
 	public static final String RECORDER_TNAME = "recorder_data"; 
 	/** 2013-5-4*/
-	public static final int VERSION = 22;               
+	public static final int VERSION = 8;               
 	public static final String TID = "tid";   
 	public static final String DAY = "day";    
 	public static final String AUTOHORITY = "sisi.orange"; 
@@ -18,10 +18,6 @@ public class DBStr {
 	public static final String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/vnd.sisi.login";              
 	public static final Uri CONTENT_URI = Uri.parse("content://" + AUTOHORITY + "/"+TNAME); 
 	public static final Uri LIST_URI = Uri.parse("content://" + AUTOHORITY + "/"+LIST_TNAME);
-	
-	//public static final String SIZE = "size";
-	//public static final String VERSIONNAME="version";
-	//public static final String CONNET = "conneT";
 	public static final String UPNUM = "upNumber";
 	public static final String DOWNNUM = "downNumber";
 	public static final String ISCUSTOM = "isCustom";

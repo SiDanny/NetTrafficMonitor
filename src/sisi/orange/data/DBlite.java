@@ -49,12 +49,9 @@ public class DBlite extends SQLiteOpenHelper {
     			db.execSQL(sqlsqlCreateListTable);
     	    	db.execSQL(sqlCreateTypeTable);
     	    	ContentValues values = new ContentValues();
-
-    			break;
     		}
     		default:
     			break;
-    	}
-    	
+    	}    	
     }  
 }

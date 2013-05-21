@@ -80,45 +80,6 @@ public class Broad {
 		default:
 			break;
 		}
-		/*if(notifFlag!=NOTIFI_SHOW_FLAG){
-			//Log.v("Broad", "flag change ");
-			nManger.cancel(R.drawable.noti);
-			notifFlag = NOTIFI_SHOW_FLAG;
-		}
-		if(NOTIFI_SHOW_FLAG!=Data.ALWAYS){			
-			switch (NOTIFI_SHOW_FLAG) {
-			case Data.ALWAYS_NOT:
-				nManger.cancel(R.drawable.noti);
-				break;
-			case Data.AUTO:
-				if(netAvaiable){
-					notifi.flags = Notification.FLAG_ONGOING_EVENT;
-					nManger.notify(R.drawable.noti,notifi);
-				}else
-					nManger.cancel(R.drawable.noti);
-				break;
-			case Data.FOR_DATA_NOTIFI:
-				if(netAvaiable){
-					int temp = (int) ((current)/notifiUnit);			
-					if((temp>notifiData))
-					{
-						notifi.tickerText = newNotifiText(month,current);
-						notifi.flags= Notification.FLAG_AUTO_CANCEL;
-						notifiData = temp;
-						notifiDataChange = notifiData;
-						nManger.notify(R.drawable.noti,notifi);
-					}
-				}
-				break;
-			default:
-				break;
-			}
-			
-		}else{
-			notifi.flags = Notification.FLAG_ONGOING_EVENT;
-			nManger.notify(R.drawable.noti,notifi);
-		}*/
-	
 		return notifiDataChange;
 	}
 

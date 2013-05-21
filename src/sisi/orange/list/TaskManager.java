@@ -97,13 +97,6 @@ public class TaskManager {
 
 			}
 		}
-		//add special app
-	/*	appList.add(new AppInfoItem(android.os.Process.getUidForName("root"),"(root)鏉冮檺杩愯鐨勭▼搴�));
-		appList.add(new AppInfoItem(android.os.Process.getUidForName("media"),"Media sever"));
-		appList.add(new AppInfoItem(android.os.Process.getUidForName("vpn"),"VPN缃戠粶"));
-		appList.add(new AppInfoItem(android.os.Process.getUidForName("shell"),"Linux shell"));*/
-		//checkchange();
-		//this.AppListLoaded=true;
 		return appList;
 	}
 	

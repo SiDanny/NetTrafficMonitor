@@ -118,13 +118,6 @@ public class TrafficActivity extends Activity{
 		// TODO Auto-generated method stub		
 		ServiceData dataMobile = Data.getServiceData(this, "mobile");
 		ServiceData dataWifi = Data.getServiceData(this, "wifi");
-
-		/*if (rectView!=null) {
-			rectView.update(data.getSum(), historyTraffic);
-		}更新数据报表
-		Log.e("update View", formateFileSize(dataWifi.getHistory())
-				+formateFileSize(dataWifi.getTempTraffic())
-				+formateFileSize(dataWifi.getLine()));*/
 		
 		showTextView(new int[]{R.id.sumView, R.id.historyView, 
 				R.id.todayView, R.id.historyWifi,R.id.todayWifi}, 

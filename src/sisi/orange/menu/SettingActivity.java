@@ -19,9 +19,6 @@ import android.widget.Toast;
 
 public class SettingActivity extends Activity implements OnSeekBarChangeListener{
 	private TextView tview;
-	
-	//private int historyTraffic;
-	//private int sumTraffic;
 	private ServiceData dataMobile = new ServiceData();
 
 	@Override

@@ -103,24 +103,6 @@ public class Detector implements OnGestureListener{
 			float velocityY) {
 		
 		// TODO Auto-generated method stub
-/*		Log.v(tag, "onFling e1.x="+e1.getX()+" e1.Y="+e1.getY()+" e2.x="+e2.getX()+
-				" e2.Y="+e2.getY()+" velocityX="+velocityX+" velocityY="+velocityY);
-		if(Math.abs(velocityX)>1200&&Math.abs(velocityY)<500){
-			float xdis = e1.getX()-e2.getX();
-			float ydis = Math.abs(e1.getY()-e2.getY());
-			Log.v(tag, xdis+" y="+ydis);
-			if(ydis<hei&&Math.abs(xdis)>wid/4){
-				if(xdis>0){
-					result = LEFT;
-					Log.e(tag, "left");
-				}else if(xdis<0){
-					result = LEFT;
-					Log.e(tag,"right");
-				}				
-			}
-			if(hand!=null)
-				hand.hand(result, 0);
-		}*/
 		return false;
 	}
 
@@ -137,22 +119,18 @@ public class Detector implements OnGestureListener{
 	public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX,
 			float distanceY) {
 		// TODO Auto-generated method stub
-/*		Log.v(tag, "onScroll e1.x="+e1.getX()+" e1.Y="+e1.getY()+" e2.x="+e2.getX()+
-				" e2.Y="+e2.getY()+" distanceX="+distanceX+" distanceY="+distanceY);
-		*/
+
 		return false;
 	}
 
 	@Override
 	public void onShowPress(MotionEvent e) {
 		// TODO Auto-generated method stub
-//		Log.v(tag, "onShowPress e1.x="+e.getX()+" e1.Y="+e.getY());
 	}
 
 	@Override
 	public boolean onSingleTapUp(MotionEvent e) {
 		// TODO Auto-generated method stub
-//		Log.v(tag, "onSingleTapUp e1.x="+e.getX()+" e1.Y="+e.getY());
 		return false;
 	}
 	public void recycle(){
