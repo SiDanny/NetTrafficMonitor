@@ -1,5 +1,6 @@
 package sisi.orange.menu;
 
+//import sisi.orange.data.Data;
 import sisi.orange.data.Data;
 import sisi.orange.data.ServiceData;
 import sisi.orange.view.R;
@@ -18,6 +19,9 @@ import android.widget.Toast;
 
 public class SettingActivity extends Activity implements OnSeekBarChangeListener{
 	private TextView tview;
+	
+	//private int historyTraffic;
+	//private int sumTraffic;
 	private ServiceData dataMobile = new ServiceData();
 
 	@Override

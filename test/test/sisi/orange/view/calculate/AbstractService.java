@@ -91,7 +91,6 @@ public abstract class AbstractService extends Service {
 			@Override
 			public void setDataProcess() {
 				// TODO Auto-generated method stub
-				System.out.println("net is opening");
 				Data.getSettingData(getApplicationContext(), serviceData, category);
 				dealNotifycation();
 			}},category);
@@ -135,7 +134,8 @@ public abstract class AbstractService extends Service {
 	@Override
 	public void onDestroy() {
 		// TODO Auto-generated method stub
-		print(" onDestory()");		
+		print(" onDestory()");
+		
 		serviceData.setNetAvaiable(false);
 		handler.removeCallbacks(inqueryRunnable);
 		unregisterReceiver(receiver);
@@ -181,6 +181,8 @@ public abstract class AbstractService extends Service {
 
 	public void dealNotifycation() {
 		// TODO Auto-generated method stub
+
+		//Log.i(category," dealNotifycation()");
 		if(mBroad!=null)
 			mBroad.notifycation(serviceData.isNetAvaiable(), serviceData.getNOTIFI_SHOW_FLAG(), 
 					serviceData.getNotifyData(), serviceData.getMonthUseData(),

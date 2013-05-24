@@ -1,6 +1,19 @@
 package sisi.orange.view.calculate;
 
-import java.util.Calendar;
+public class MobileService extends AbstractService{
+	public MobileService(){
+		
+	}
+
+	@Override
+	public void onCreate() {
+		// TODO Auto-generated method stub
+		super.category = "mobile";
+		super.onCreate();
+	}
+	
+}
+/*import java.util.Calendar;
 import java.util.List;
 
 import sisi.orange.data.AppInfoItem;
@@ -19,12 +32,12 @@ import android.os.Message;
 import android.text.format.Formatter;
 import android.util.Log;
 
-public abstract class AbstractService extends Service {
+public class MobileService extends Service implements ServiceInterface{
 	protected ServiceData serviceData = null;
 	protected Context context = this;
 	protected Broad mBroad ;
 	private NetReceiver receiver = null;
-	protected String category;
+	protected String category = "mobile";
 	private Handler handler = new Handler(){
 
 		@Override
@@ -62,7 +75,7 @@ public abstract class AbstractService extends Service {
 			}
 			serviceData.setTempTraffic((int) temp);
 			dealNotifycation();
-			Data.updateTempTraffic(AbstractService.this, temp, category);
+			Data.updateTempTraffic(MobileService.this, temp, category);
 			Data.update(context, serviceData.getDateDay(), (int) serviceData.getTodayUseData(), category);
 			handler.postDelayed(inqueryRunnable, serviceData.getDelay());
 		}
@@ -75,7 +88,7 @@ public abstract class AbstractService extends Service {
 			public void ClosingProcess() {
 				// TODO Auto-generated method stub				
 				handler.sendEmptyMessage(Data.NETUNAVAILABLE);
-				System.out.println("net is closing");
+				print("net is closing");
 				serviceData.setNetAvaiable(false);
 				stopSelf();
 			}
@@ -85,15 +98,15 @@ public abstract class AbstractService extends Service {
 				// TODO Auto-generated method stub
 				handler.post(inqueryRunnable);
 				serviceData.setNetAvaiable(true);
-				System.out.println("net is opening");
+				print("net is opening");
 			}
 
 			@Override
 			public void setDataProcess() {
 				// TODO Auto-generated method stub
-				System.out.println("net is opening");
 				Data.getSettingData(getApplicationContext(), serviceData, category);
 				dealNotifycation();
+				print(serviceData.getNOTIFI_SHOW_FLAG()+" set change ");
 			}},category);
 		IntentFilter nfilter=new IntentFilter();  
 		nfilter.addAction(Data.NET_CHANGE);
@@ -102,8 +115,11 @@ public abstract class AbstractService extends Service {
 		serviceData = Data.getServiceData(context, category);
 		mBroad = new Broad(this,(NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE),
 				serviceData.getNOTIFI_SHOW_FLAG());
-		mBroad.AddNotification();		
-	}	
+		mBroad.AddNotification();
+		
+	}
+	
+	
 
 	@Override
 	public void onCreate() {
@@ -117,6 +133,8 @@ public abstract class AbstractService extends Service {
 		}
 		super.onCreate();
 	}
+
+
 
 	@Override
 	public IBinder onBind(Intent intent) {
@@ -132,10 +150,13 @@ public abstract class AbstractService extends Service {
 		return START_STICKY;
 	}
 
+
+
 	@Override
 	public void onDestroy() {
 		// TODO Auto-generated method stub
-		print(" onDestory()");		
+		print(" onDestory()");
+		
 		serviceData.setNetAvaiable(false);
 		handler.removeCallbacks(inqueryRunnable);
 		unregisterReceiver(receiver);
@@ -146,6 +167,8 @@ public abstract class AbstractService extends Service {
 		super.onDestroy();
 	}
 
+
+	@Override
 	public void checkDate() {
 		// TODO Auto-generated method stub
 		Calendar c = Calendar.getInstance();
@@ -167,9 +190,9 @@ public abstract class AbstractService extends Service {
 			serviceData.setDateDay(day);
 			print("Date Changed");
 		 }
-		/***
+		*//***
 		 * 如果是开机之后
-		 */
+		 *//*
 		long temp = NetTraffic.getTotalBytes(category);
 		if(temp<serviceData.getTempTraffic()){
 			serviceData.setHistory(serviceData.getHistory()+serviceData.getTempTraffic());
@@ -179,8 +202,13 @@ public abstract class AbstractService extends Service {
 		Data.setServiceDataByService(context, serviceData, category);
 	}
 
+
+
+	@Override
 	public void dealNotifycation() {
 		// TODO Auto-generated method stub
+
+		//Log.i(category," dealNotifycation()");
 		if(mBroad!=null)
 			mBroad.notifycation(serviceData.isNetAvaiable(), serviceData.getNOTIFI_SHOW_FLAG(), 
 					serviceData.getNotifyData(), serviceData.getMonthUseData(),
@@ -201,3 +229,4 @@ public abstract class AbstractService extends Service {
     	return Formatter.formatFileSize(this, size); 
     }
 }
+*/

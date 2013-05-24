@@ -37,12 +37,14 @@ public class ScrollLayout extends ViewGroup {
 		this(context, attrs, 0);
 		// TODO Auto-generated constructor stub
 		setBackgroundColor(Color.WHITE);
+		//Log.v("ScrollLayout", "default construct");
 	}
 	
 	/***先于上面构造函数执行*/
 	public ScrollLayout(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 		// TODO Auto-generated constructor stub
+		//Log.v("ScrollLayout", "default style construct");
 		mScroller = new Scroller(context);	
 		mCurScreen = mDefaultScreen;
 		mTouchSlop = ViewConfiguration.get(getContext()).getScaledTouchSlop();
@@ -54,6 +56,7 @@ public class ScrollLayout extends ViewGroup {
 		int childLeft = 0;
 		final int childCount = getChildCount();
 		Log.v("onLayout", "onLayout count "+childCount);
+		//Log.v("onLayout", "l="+l+" t="+t+" r="+r+" b="+b);
 		for (int i=0; i<childCount; i++) {
 			final View childView = getChildAt(i);
 			if (childView.getVisibility() != View.GONE) {
@@ -157,9 +160,13 @@ public class ScrollLayout extends ViewGroup {
             velocityTracker.computeCurrentVelocity(1000);   
             int velocityX = (int) velocityTracker.getXVelocity();  
             if (velocityX > SNAP_VELOCITY && mCurScreen > 0) {   
+                // Fling enough to move left   
+            	//Log.v(TAG, "snap left");
                 snapToScreen(mCurScreen - 1);   
             } else if (velocityX < -SNAP_VELOCITY   
                     && mCurScreen < getChildCount() - 1) {   
+                // Fling enough to move right  
+            	//Log.v(TAG, "snap right");
                 snapToScreen(mCurScreen + 1);   
             } else {   
                 snapToDestination();  
