@@ -24,9 +24,7 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
-/**
- * wifi下或积分不足显示广告 75行miidi推送广告，分数100限制
- */
+
 public class MenuMore extends Activity {
 	private Builder b;
 	final Handler mHandler = new Handler();

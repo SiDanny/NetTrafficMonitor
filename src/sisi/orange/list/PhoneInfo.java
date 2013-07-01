@@ -67,7 +67,7 @@ public class PhoneInfo {
         }
 
         /**
-         * get phone type,like :GSM��CDMA��SIP��NONE
+         * get phone type,like :GSM CDMA
          * 
          * @param context
          * @return

@@ -61,7 +61,7 @@
     <color name="guide_list_item_bg">#3c91e2</color>
     <string name="BroadChange">android.net.conn.CONNECTIVITY_CHANGE</string>
     <string name="menutext"> 菜单 </string>
-    <string name="app_name">流量记录</string>    
+    <string name="app_name">流量监测</string>    
     <string name="spendExit">使用100积分可以取消确认框</string>
     <string name="version">Version:1.40</string>
     <string name="list_tra">流量详情</string>

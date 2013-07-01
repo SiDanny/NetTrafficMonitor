@@ -13,7 +13,11 @@ import org.achartengine.renderer.DefaultRenderer;
 import org.achartengine.renderer.SimpleSeriesRenderer;
 import org.achartengine.renderer.XYMultipleSeriesRenderer;
 import org.achartengine.renderer.XYSeriesRenderer;
-
+/**
+ * 
+ * @author AChatEngine
+ *
+ */
 public class AbstractDemoChart {
 	/**
 	 * Builds an XY multiple dataset using the provided values.

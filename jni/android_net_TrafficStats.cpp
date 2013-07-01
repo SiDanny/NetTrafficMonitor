@@ -35,13 +35,13 @@ static jlong readNumber(char const* filename) {
     char buf[80];
     int fd = open(filename, O_RDONLY);
     if (fd < 0) {
-        if (errno != ENOENT) /*syslog(3,"Can't open %s: %s", filename, strerror(errno))*/;
+        if (errno != ENOENT) syslog(3,"Can't open %s: %s", filename, strerror(errno));
         return -1;
     }
 
     int len = read(fd, buf, sizeof(buf) - 1);
     if (len < 0) {
-        /*LOGE("Can't read %s: %s", filename, strerror(errno))*/;
+        LOGE("Can't read %s: %s", filename, strerror(errno));
         close(fd);
         return -1;
     }
@@ -63,7 +63,7 @@ static jlong readTotal(char const* suffix) {
     char filename[56] = "/sys/class/net/";
     DIR *dir = opendir(filename);
     if (dir == NULL) {
-        /*syslog(3, "Can't list %s: %s", filename, strerror(errno))*/;
+        syslog(3, "Can't list %s: %s", filename, strerror(errno));
         return -1;
     }
 
@@ -159,10 +159,10 @@ static JNINativeMethod gMethods[] = {
     {"getUidRxBytes", "(I)J", (void*) getUidRxBytes},
 };
 
-/*int register_android_net_TrafficStats(JNIEnv* env) {
+int register_android_net_TrafficStats(JNIEnv* env) {
     return AndroidRuntime::registerNativeMethods(env, "android/net/TrafficStats",
             gMethods, NELEM(gMethods));
-}*/
+}
 
 static int registerNativeMethods(JNIEnv* env,const char* className,
 	JNINativeMethod* gMethods,int numMethods)
@@ -170,12 +170,12 @@ static int registerNativeMethods(JNIEnv* env,const char* className,
 	jclass clazz;
 	clazz= env->FindClass(className);
 	if(clazz == NULL){
-		/*syslog(3,"Native registration unable to find class '%s'",className)*/;
+		syslog(3,"Native registration unable to find class '%s'",className);
 		return JNI_FALSE;
 	}
 	
 	if(env->RegisterNatives(clazz,gMethods,numMethods)<0){
-		/*syslog(3,"RegisterNatives failed for '%s'",className)*/;
+		syslog(3,"RegisterNatives failed for '%s'",className);
 		return JNI_FALSE;
 	}
 	
@@ -202,17 +202,17 @@ jint JNI_OnLoad(JavaVM* vm,void* reserved)
 {
 	UnionJNIEnvToVoid uenv;
 	JNIEnv* env=NULL;
-	/*syslog(6, "JNI_ONLoad!")*/;
+	syslog(6, "JNI_ONLoad!");
 	
 	if(vm->GetEnv((void**)&uenv.venv,JNI_VERSION_1_4)!=JNI_OK){
-		/*syslog(3,"ERROR:GetEnv failed")*/;
+		syslog(3,"ERROR:GetEnv failed");
 		return -1;
 	}
 	
 	env=uenv.env;
 	
 	if(registerNatives(env)!=JNI_TRUE){
-		/*syslog(3,"ERROR:registerNatives failed")*/;
+		syslog(3,"ERROR:registerNatives failed");
 		return -1;
 	}
 	
