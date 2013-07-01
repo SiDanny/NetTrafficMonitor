@@ -1,0 +1,36 @@
+# view AndroidManifest.xml #generated:43
+-keep class org.achartengine.GraphicalActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class sisi.orange.data.MyProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class sisi.orange.list.UidListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class sisi.orange.menu.MenuMore { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class sisi.orange.menu.SettingActivity { <init>(...); }
+
+# view res/layout/scroll.xml #generated:2
+-keep class sisi.orange.view.ScrollLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class sisi.orange.view.calculate.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class sisi.orange.view.calculate.BootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class sisi.orange.view.calculate.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class sisi.orange.view.calculate.MobileService { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class sisi.orange.view.calculate.TrafficActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class sisi.orange.view.calculate.WifiService { <init>(...); }
+
